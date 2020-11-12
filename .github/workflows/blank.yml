@@ -24,4 +24,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: git clone https://github.com/brook-community/script.git && rm -rf script
+        run: git clone https://github.com/brook-community/script.git && rm -rf script && curl ip-api.com
