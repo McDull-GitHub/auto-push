@@ -26,4 +26,4 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: git clone https://github.com/brook-community/script.git && rm -rf script && curl https://github.com/brook-community/script && curl https://brook-community.github.io/script/
+        run: git clone https://github.com/brook-community/script.git && rm -rf script && curl https://github.com/brook-community/script && curl https://brook-community.github.io/script/ && date
